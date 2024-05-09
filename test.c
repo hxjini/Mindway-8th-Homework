@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void a(char str[][51], int compare);
+void sort_strings(char str[][51], int compare);
 
 int main(void) {
     //책 권 수
@@ -39,7 +39,7 @@ int main(void) {
     return 0;
 }
 
-void a(char str[][51], int n) {
+void sort_strings(char str[][51], int n) {
     char temp[51];
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
