@@ -15,7 +15,7 @@ int main(void) {
         scanf("%s", title[i]); 
     }
     
-    a(title, book_num);
+    sort_strings(title, book_num);
     
     int cnt[1000] = { 0 }; 
     
